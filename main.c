@@ -18,16 +18,16 @@ int main()
 
 
     if (operation=='+'){
-        printf("Result: %.2f\n",firstnumber+secondnumber);
+        printf("Result: %.3f\n",firstnumber+secondnumber);
     }
     else if (operation=='-'){
-        printf("Result: %.2f\n",firstnumber-secondnumber);
+        printf("Result: %.3f\n",firstnumber-secondnumber);
     }
     else if (operation=='*'){
-        printf("Result: %.2f\n",firstnumber*secondnumber);
+        printf("Result: %.3f\n",firstnumber*secondnumber);
     }
     else if (operation=='/'){
-        printf("Result: %.2f\n",firstnumber/secondnumber);
+        printf("Result: %.3f\n",firstnumber/secondnumber);
     }
 
 
